@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+  </startup>
+
+  <appSettings>
+
+    <add key="DatabasePath" value="Data Source=(local);Initial Catalog=Robots;Integrated Security=true" />
+
+    <add key="GetParentTable" value="select * from SCORE" />
+
+    <add key="GetChildTable" value="select * from UnderWaterRobot"/>
+
+    <add key="AddQuerry" value="insert into UnderWaterRobot/>(RobotId,RobotName,TimeUnderWater,Score) values("/>
+
+    <add key="UpdateQuerry" value="update UnderWaterRobot set RobotName ="/>
+
+    <add key="DeleteQuerry" value="delete from UnderWaterRobot where RobotId ="/>
+
+
+
+
+
+  </appSettings>
+
+</configuration>

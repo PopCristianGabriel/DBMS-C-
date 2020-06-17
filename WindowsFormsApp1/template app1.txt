@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+  </startup>
+
+  <appSettings>
+
+    <add key="DatabasePath" value="Data Source=(local);Initial Catalog=Robots;Integrated Security=true" />
+
+    <add key="GetParentTable" value="select * from SCORE" />
+    
+    <add key="GetChildTable" value="select * from IncredibleRobot" />
+
+    <add key="AddQuerry" value="insert into IncredibleRobot(RobotId,RobotName,Incredibility,Score) values("/>
+
+    <add key="UpdateQuerry" value="update IncredibleRobot set RobotName ="/>
+
+    <add key="DeleteQuerry" value="delete from IncredibleRobot where RobotId ="/>
+
+    <add key="SpecialTreat" value ="Incredibility"/>
+    
+
+
+
+  </appSettings>
+
+</configuration>

@@ -1,2 +1,2 @@
-# DBMS-C-
+# DBMS-C-Sharp
 Data Base Management System
